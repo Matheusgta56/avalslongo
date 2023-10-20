@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <header className="text-center text-black py-8 border-b border-[#F56A6A] md:flex itens-center justify-between">
+        <header className="text-center text-black py-8 border-b border-[#3D4449] md:flex itens-center justify-between">
             <h4>News by UTFPR</h4>
             <nav>
                 <a className="hover:text-[#00e77f]" href="#">
@@ -10,7 +10,7 @@ export default function Header() {
                     Cursos &nbsp;
                 </a>
                 <a className="hover:text-[#00e77f]" href="#contato">
-                    Contato &nbsp;{" "}
+                    Contato &nbsp;
                 </a>
                 <a className="hover:text-[#00e77f]" href="#">
                     Login &nbsp;

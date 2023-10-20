@@ -1,62 +1,86 @@
 export default function Article() {
     return(
         <main className="grid gap-4">
-  <div className="text-center text-black py-8 border-b border-[#F56A6A] md:flex justify-between">
+  <div className="md:col-span-2 lg:col-span-3 mt-4 text-black text-center">
     <h2 id="cursos">
      Ipsum sed dolor <span>CURSOS</span>
     </h2>
   </div>
-  <div className=" rounded-md pb-2">
+  <div className=" rounded-md pb-2 py-8 border-b">
     <a href="/curso_html.html">
       <img src="/img/pic01.jpg.png" alt="" />
-      <div className="text-black text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de HTML</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                        More
+                    </a>
       </div>
     </a>
   </div>
-  <div className=" rounded-md pb-2">
+  <div className=" rounded-md pb-2 py-8 border-b">
     <a href="/curso_css.html">
       <img src="/img/a.png" alt="" />
-      <div className="text-black text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de CSS</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                         More
+                    </a>
       </div>
     </a>
   </div>
-  <div className=" rounded-md pb-2">
+  <div className=" rounded-md pb-2 py-8 border-b">
     <a href="/curso_js.html">
       <img src="/img/a (1).png" alt="" />
-      <div className="text-black text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de JS</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                         More
+                    </a>
       </div>
     </a>
   </div>
-  <div className="bg-[#4d4d4d] rounded-md pb-2">
+  <div className="rounded-md pb-2 py-8 border-b">
     <a href="/curso_html.html">
       <img src="/img/a (2).png" alt="" />
-      <div className="text-white text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de DESIGN</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                         More
+                    </a>
       </div>
     </a>
   </div>
-  <div className="bg-[#4d4d4d] rounded-md pb-2">
+  <div className=" rounded-md pb-2 py-8 border-b">
     <a href="/curso_html.html">
       <img src="/img/pic05.jpg.png" alt="" />
-      <div className="text-white text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de GAMES</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                         More
+                    </a>
       </div>
     </a>
   </div>
-  <div className="bg-[#4d4d4d] rounded-md pb-2">
+  <div className="rounded-md pb-2 py-8 border-b">
     <a href="/curso_html.html">
       <img src="/img/a (3).png" alt="" />
-      <div className="text-white text-center">
+      <div className="text-[#3D4449] text-center">
         <h3>Curso de ROBÓTICA</h3>
-        <p>O curso é realizado por profissionais..</p>
+        <p className="text-[#7F888F] text-center py-4">O curso é realizado por profissionais..</p>
+        <a 
+                        className="py-8 text-[#F56A6A]  bg-white border border-[#F56A6A] px-3 py-[3px]" href="#section" >
+                         More
+                    </a>
       </div>
     </a>
   </div>
