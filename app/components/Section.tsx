@@ -1,9 +1,9 @@
-export default  function Banner() {
+export default  function Section() {
     return (
         <div>
             <div className="py-8 md:flex items-center flex-row-reverse">
                 <div className="basis-1/2">
-                    <img src="/img/pic10.jpg.png" alt="Descrição da Imagem" />
+                    <img src="" alt="Descrição da Imagem" />
                 </div>
                 <div className="py-8 basis-1/2 text-center text-black">
                     <h2>Hi, I`m Teacher by UTFPR</h2>

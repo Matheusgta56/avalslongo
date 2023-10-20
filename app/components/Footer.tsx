@@ -21,7 +21,7 @@ export default function Footer () {
                 </a>
                 <a href="">
                     <svg
-                        fill="white"
+                        fill="black"
                         xmlns="http://www.w3.org/2000/svg"
                         height="1em"
                         viewBox="0 0 512 512"
@@ -32,7 +32,7 @@ export default function Footer () {
                 </a>
                 <a href="">
                     <svg
-                        fill="white"
+                        fill="black"
                         xmlns="http://www.w3.org/2000/svg"
                         height="1em"
                         viewBox="0 0 512 512"
@@ -43,7 +43,7 @@ export default function Footer () {
                 </a>
                 <a href="">
                     <svg
-                        fill="white"
+                        fill="black"
                         xmlns="http://www.w3.org/2000/svg"
                         height="1em"
                         viewBox="0 0 448 512"
@@ -54,7 +54,7 @@ export default function Footer () {
                 </a>
                 <a href="">
                     <svg
-                        fill="white"
+                        fill="black"
                         xmlns="http://www.w3.org/2000/svg"
                         height="1em"
                         viewBox="0 0 576 512"
@@ -65,7 +65,7 @@ export default function Footer () {
                 </a>
                 <a href="">
                     <svg
-                        fill="white"
+                        fill="black"
                         xmlns="http://www.w3.org/2000/svg"
                         height="1em"
                         viewBox="0 0 448 512"
@@ -75,7 +75,7 @@ export default function Footer () {
                     </svg>
                 </a>
             </div>
-            <div className="text-center text-white mt-8 border-t">
+            <div className="text-center text-black mt-8 border-t">
                 <p className={kaushan.className} >©Copyright UTFPR 2023-2 by Alunos de Web all rights reserved!</p>
             </div>
         </footer>
