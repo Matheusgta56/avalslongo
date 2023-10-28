@@ -6,7 +6,7 @@ const kaushan = Kaushan_Script({
 })
 export default function Footer () {
     return (
-        <footer id="contato" className="mt-16">
+        <footer id="contato" className="mt-16 ">
             <div className="flex justify-center text-4xl text-center space-x-4">
                 <a href="httt://www.facebook.com/seuenderece">
                     <svg
